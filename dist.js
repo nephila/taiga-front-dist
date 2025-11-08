@@ -15,7 +15,7 @@ var _exec = bluebird.promisify(exec);
 var _del = deleteAsync;
 
 var local = 'tmp';
-var repo = 'https://github.com/nephila/taiga-front-1';
+var repo = 'git@gitix.iast.it:nephila/applications/taiga-front.git';
 
 if (process.argv.length !== 3){
     console.log("¡Error!, call me with somethink like: \nnode dist.js branch_name");
